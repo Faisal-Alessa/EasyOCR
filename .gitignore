@@ -107,3 +107,13 @@ ENV/
 .vscode/
 .vs/
 .idea/
+
+# models
+*.pth
+*.pt
+
+# data
+*.jpeg
+*.tiff
+*.png
+*.jpg
