@@ -118,5 +118,5 @@ ENV/
 *.png
 *.jpg
 
-# logs
-*.txt
+# # logs
+# *.txt
