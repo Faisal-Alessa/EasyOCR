@@ -67,7 +67,7 @@ def train(opt, show_number = 2, amp=False):
           opt.SequenceModeling, opt.Prediction)
 
     if opt.saved_model != '':
-        pretrained_dict = torch.load(opt.saved_model, map_location=torch.device('cpu')) ## remember to revert this when you want to use gpu
+        pretrained_dict = torch.load(opt.saved_model) ## remember to revert this when you want to use gpu
         if opt.new_prediction:
             model.Prediction = nn.Linear(model.SequenceModeling_output, len(pretrained_dict['module.Prediction.weight']))  
         
@@ -258,7 +258,7 @@ def train(opt, show_number = 2, amp=False):
                 predicted_result_log = f'{dashed_line}\n{head}\n{dashed_line}\n'
                 
                 #show_number = min(show_number, len(labels))
-                
+                print("###",len(labels))
                 start = random.randint(0,len(labels) - show_number )    
                 for gt, pred, confidence in zip(labels[start:start+show_number], preds[start:start+show_number], confidence_score[start:start+show_number]):
                     if 'Attn' in opt.Prediction:

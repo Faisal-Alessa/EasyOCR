@@ -53,7 +53,7 @@ class Reader(object):
         """
         self.verbose = verbose
         self.download_enabled = download_enabled
-
+        print('#########', MODULE_PATH)
         self.model_storage_directory = MODULE_PATH + '/model'
         if model_storage_directory:
             self.model_storage_directory = model_storage_directory
@@ -175,16 +175,16 @@ class Reader(object):
                     download_and_unzip(model['url'], model['filename'], self.model_storage_directory, verbose)
                     assert calculate_md5(model_path) == model['md5sum'], corrupt_msg
                     LOGGER.info('Download complete.')
-                elif calculate_md5(model_path) != model['md5sum']:
-                    if not self.download_enabled:
-                        raise FileNotFoundError("MD5 mismatch for %s and downloads disabled" % model_path)
-                    LOGGER.warning(corrupt_msg)
-                    os.remove(model_path)
-                    LOGGER.warning('Re-downloading the recognition model, please wait. '
-                                   'This may take several minutes depending upon your network connection.')
-                    download_and_unzip(model['url'], model['filename'], self.model_storage_directory, verbose)
-                    assert calculate_md5(model_path) == model['md5sum'], corrupt_msg
-                    LOGGER.info('Download complete')
+                # elif calculate_md5(model_path) != model['md5sum']:
+                #     if not self.download_enabled:
+                #         raise FileNotFoundError("MD5 mismatch for %s and downloads disabled" % model_path)
+                #     LOGGER.warning(corrupt_msg)
+                #     os.remove(model_path)
+                #     LOGGER.warning('Re-downloading the recognition model, please wait. '
+                #                    'This may take several minutes depending upon your network connection.')
+                #     download_and_unzip(model['url'], model['filename'], self.model_storage_directory, verbose)
+                #     assert calculate_md5(model_path) == model['md5sum'], corrupt_msg
+                #     LOGGER.info('Download complete')
             self.setLanguageList(lang_list, model)
 
         else: # user-defined model

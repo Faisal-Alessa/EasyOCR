@@ -1,0 +1,183 @@
+[10/20] Train loss: 17.18480, Valid loss: 4.66240, Elapsed_time: 4.57116
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Xxii Determined : napping |                           | 0.0078	False
+Usaid Vfb # OWNER +       |                           | 0.0086	False
+--------------------------------------------------------------------------------
+[20/20] Train loss: 6.77454, Valid loss: 4.43805, Elapsed_time: 8.96379
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Reno                      |                           | 0.0025	False
+FREQUENT Niels            |                           | 0.0013	False
+--------------------------------------------------------------------------------
+[10/20] Train loss: 17.18876, Valid loss: 4.49081, Elapsed_time: 3.30779
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Tijuana - Bogged 6850134  |                           | 0.0000	False
+provoking                 |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[20/20] Train loss: 6.46889, Valid loss: 4.77945, Elapsed_time: 7.90247
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Ear ) representations     |                           | 0.0366	False
+forbs Vaidyasala "because" |                           | 0.0341	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 26.94099, Valid loss: 5.37280, Elapsed_time: 2.15782
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+prickly phosphate         |                           | 0.0000	False
+Portia Owls Orvola        |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 8.25581, Valid loss: 4.84398, Elapsed_time: 6.48280
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+UEFA FEDs:                |                           | 0.0393	False
+31458 ~                   |                           | 0.0264	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 21.83335, Valid loss: 20.11377, Elapsed_time: 2.14995
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+~IANA Viczay              |                           | 0.0000	False
+DOORLEY !                 |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 9.46247, Valid loss: 4.53933, Elapsed_time: 6.24837
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+{afford} redacted 6       |                           | 0.0000	False
+INTERNALLY generally & Prijuoste |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 16.58410, Valid loss: 6.80694, Elapsed_time: 2.13797
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Hamleys                   |                           | 0.0000	False
+NPR LinuxTV _             |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 6.61663, Valid loss: 4.80292, Elapsed_time: 6.05324
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Munch-Mono                |                           | 0.0010	False
+Navassa {Mango}           |                           | 0.0058	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 27.02205, Valid loss: 5.16797, Elapsed_time: 2.12810
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Mayes                     |                           | 0.0000	False
+Victim? 34971             |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 7.98484, Valid loss: 15.21595, Elapsed_time: 6.24062
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+(Zaphod) ` Nyc Ethoxylated |                           | 0.0000	False
+PRINTABLE *               |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 21.62965, Valid loss: 20.92974, Elapsed_time: 0.57245
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+0493286                   |                           | 0.0000	False
+expectancy_stalking rallies |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 10.61914, Valid loss: 4.48751, Elapsed_time: 4.65740
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+'Shine'                   |                           | 0.0024	False
+'Lenders' Digby           |                           | 0.0024	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 21.65091, Valid loss: 15.68308, Elapsed_time: 2.11025
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Zachary YEATES            |                           | 0.0000	False
+QAEDA Weisman Freziera    |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 8.73698, Valid loss: 4.52537, Elapsed_time: 6.23945
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Openwide                  |                           | 0.0003	False
+Pontenet Submersible { Gamepad |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 21.88484, Valid loss: 5.23533, Elapsed_time: 2.09684
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Yaddo                     |                           | 0.0002	False
+Opting                    |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 7.39751, Valid loss: 11.42166, Elapsed_time: 6.18295
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+motorway Stabilizing;     |                           | 0.0000	False
+KYLZ                      |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 20.85205, Valid loss: 7.68319, Elapsed_time: 2.08571
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+OPTICON_GKS (             |                           | 0.0000	False
+PUP Bonapartism edges )   |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[10/10] Train loss: 6.23463, Valid loss: 4.85497, Elapsed_time: 6.08543
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+entailed ^                |                           | 0.0173	False
+Zumtobel Mazeroski _ 043652 . |                           | 0.0025	False
+--------------------------------------------------------------------------------
+[5/10] Train loss: 38.36671, Valid loss: 52.27404, Elapsed_time: 1.86081
+Current_accuracy : 0.000, Current_norm_ED  : 0.0264
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0264

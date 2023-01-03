@@ -1,15 +1,15 @@
-number: '0123456789' #'٠١٢٣٤٥٦٧٨٩'
-symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €" #"/"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' #'ابتثجابتثجحخدذرزسشصضطظعغفقكلمنهوي '
-experiment_name: 'en_filtered'
-train_data: 'all_data/'
-valid_data: 'all_data/en_sample copy'
+number: ""
+symbol: ""
+lang_char: "0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ٠١٢٣٤٥٦٧٨٩«»؟،؛ءآأؤإئااًبةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰٓٔٱٹپچڈڑژکڭگںھۀہۂۃۆۇۈۋیېےۓه"
+experiment_name: 'ar_test'
+train_data: 'all_data'
+valid_data: 'all_data/ar_val'
 manualSeed: 1111
-workers: 1
+workers: 6
 batch_size: 32
-num_iter: 2
-valInterval: 20000
-saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
+num_iter: 50
+valInterval: 10
+saved_model: '' # ''../models/arabic.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
 lr: 1.
@@ -18,7 +18,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'en_sample' #'en_train_filtered' # this is dataset folder in train_data
+select_data: 'ar_train' #'en_train_filtered' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
@@ -32,13 +32,13 @@ contrast_adjust: 0.0
 data_filtering_off: False
 # Model Architecture
 Transformation: 'None'
-FeatureExtraction: 'VGG'
+FeatureExtraction: 'ResNet'
 SequenceModeling: 'BiLSTM'
 Prediction: 'CTC'
 num_fiducial: 20
 input_channel: 1
-output_channel: 256
-hidden_size: 256
+output_channel: 512
+hidden_size: 512
 decode: 'greedy'
 new_prediction: False
 freeze_FeatureFxtraction: False
