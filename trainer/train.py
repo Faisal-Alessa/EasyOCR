@@ -67,11 +67,11 @@ def train(opt, show_number = 2, amp=False):
           opt.SequenceModeling, opt.Prediction)
 
     if opt.saved_model != '':
-        pretrained_dict = torch.load(opt.saved_model)
+        pretrained_dict = torch.load(opt.saved_model, map_location=torch.device('cpu')) ## remember to revert this when you want to use gpu
         if opt.new_prediction:
             model.Prediction = nn.Linear(model.SequenceModeling_output, len(pretrained_dict['module.Prediction.weight']))  
         
-        model = torch.nn.DataParallel(model).to(device) 
+        model = torch.nn.DataParallel(model).to(device)
         print(f'loading pretrained model from {opt.saved_model}')
         if opt.FT:
             model.load_state_dict(pretrained_dict, strict=False)
